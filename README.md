@@ -24,3 +24,29 @@ Matrix	   1999	       R
 En los ejemplos de código anteriores, las etiquetas como <li> o <td> siempre se usan dentro de otras etiquetas como
 
 <ul>o <tr>.Cuando una etiqueta HTML está anidada dentro de otra etiqueta, llamamos a la etiqueta interior “hijo” de la etiqueta exterior. Las etiquetas hijo adyacentes, como las <li> múltiples, se consideran hermanas entre sí
+
+Imágenes: <img>
+
+Atributos importantes: src(la ruta del archivo de imagen)alt
+<img src="panda.jpg" alt="panda pic">
+
+Atributos importantes: src(la ruta del archivo de video) y
+controls
+<video src="monkey2.mp4" controls></video>
+
+Si queremos que un video se reproduzca de forma automática en navegadores modernos, debemos incluir autoplay, loop y muted.
+<video src="monkey2.mp4" autoplay loop muted></video>
+
+1. ¿Cuál es el lenguaje de marcado principal para crear páginas web y otra información que se puede mostrar en un navegador web?
+HTML
+
+2. El texto entre <body> y </body> describe la parte visible de la página web. ¿Verdadero o falso?
+Verdadero
+
+3. En el ejemplo de código anterior, ¿Qué etiqueta es el padre de los elementos de la lista <li>?
+<ul>
+
+4. En el ejemplo de código anterior, ¿qué etiqueta es el padre de la etiqueta de anclaje <a>?
+<p>
+5. ¿Cuál es la función de la etiqueta anchor <a> en el ejemplo anterior?
+Para proporcionar un hipervínculo a la URL definida en el atributo href
