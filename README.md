@@ -50,3 +50,12 @@ Verdadero
 <p>
 5. ¿Cuál es la función de la etiqueta anchor <a> en el ejemplo anterior?
 Para proporcionar un hipervínculo a la URL definida en el atributo href
+
+
+psc:
+<html> es el padre de <head> y <body>
+<head> es el primer hijo de <html>
+<body> es el último hijo de <html>
+<head> tiene un hijo: <title>
+<body> tiene dos hijos: <h1> y <p>"
+<h1> , <p> , <head> y <body>  son hermanos.
